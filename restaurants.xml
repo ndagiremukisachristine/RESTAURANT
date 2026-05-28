@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<restaurant>
+    <menu>
+        <item id="1">
+            <name>Margherita Pizza</name>
+            <category>Pizza</category>
+            <price>12.99</price>
+            <description>Fresh mozzarella, tomatoes, and basil on classic crust</description>
+            <available>yes</available>
+            <prep_time>15</prep_time>
+            <spice_level>mild</spice_level> 
+        </item>
+        <item id="2">
+            <name>Pepperoni Pizza</name>
+            <category>Pizza</category>
+            <price>14.99</price>
+            <description>Classic pepperoni with mozzarella and tomato sauce</description>
+            <available>yes</available>
+            <prep_time>15</prep_time>
+            <spice_level>medium</spice_level>
+        </item>
+        <item id="3">
+            <name>Caesar Salad</name>
+            <category>Salads</category>
+            <price>8.99</price>
+            <description>Crisp romaine, parmesan, croutons with Caesar dressing</description>
+            <available>yes</available>
+            <prep_time>10</prep_time>
+            <spice_level>mild</spice_level>
+        </item>
+        <item id="4">
+            <name>Grilled Chicken</name>
+            <category>Main Course</category>
+            <price>18.99</price>
+            <description>Herb-marinated chicken breast with roasted vegetables</description>
+            <available>yes</available>
+            <prep_time>25</prep_time>
+            <spice_level>mild</spice_level>
+        </item>
+        <item id="5">
+            <name>Spaghetti Carbonara</name>
+            <category>Pasta</category>
+            <price>15.99</price>
+            <description>Eggs, cheese, pancetta, and black pepper</description>
+            <available>no</available>
+            <prep_time>20</prep_time>
+            <spice_level>mild</spice_level>
+        </item>
+        <item id="6">
+            <name>Chicken Wings</name>
+            <category>Appetizers</category>
+            <price>10.99</price>
+            <description>Spicy buffalo wings with blue cheese dip</description>
+            <available>yes</available>
+            <prep_time>20</prep_time>
+            <spice_level>hot</spice_level>
+        </item>
+        <item id="7">
+            <name>Cheeseburger</name>
+            <category>Burgers</category>
+            <price>11.99</price>
+            <description>Beef patty with cheddar, lettuce, tomato, and pickles</description>
+            <available>yes</available>
+            <prep_time>15</prep_time>
+            <spice_level>medium</spice_level>
+        </item>
+        <item id="8">
+            <name>Vegan Burger</name>
+            <category>Burgers</category>
+            <price>13.99</price>
+            <description>Plant-based patty with avocado and sprouts</description>
+            <available>yes</available>
+            <prep_time>15</prep_time>
+            <spice_level>mild</spice_level>
+        </item>
+        <item id="9">
+            <name>Chocolate Cake</name>
+            <category>Desserts</category>
+            <price>6.99</price>
+            <description>Rich chocolate layer cake with ganache</description>
+            <available>yes</available>
+            <prep_time>5</prep_time>
+            <spice_level>mild</spice_level>
+        </item>
+        <item id="10">
+            <name>Ice Cream Sundae</name>
+            <category>Desserts</category>
+            <price>5.99</price>
+            <description>Vanilla ice cream with hot fudge and cherry</description>
+            <available>yes</available>
+            <prep_time>5</prep_time>
+            <spice_level>mild</spice_level>
+        </item>
+    </menu>
+    
+    <orders>
+        <order id="1001">
+            <customer_name>John Doe</customer_name>
+            <items>1,3</items>
+            <total>21.98</total>
+            <status>completed</status>
+            <order_time>2026-05-28 12:30:00</order_time>
+        </order>
+        <order id="1002">
+            <customer_name>Jane Smith</customer_name>
+            <items>2,4</items>
+            <total>33.98</total>
+            <status>preparing</status>
+            <order_time>2026-05-28 13:15:00</order_time>
+        </order>
+    </orders>
+    
+    <reservations>
+        <reservation id="1">
+            <customer>Mike Johnson</customer>
+            <date>2026-05-29</date>
+            <time>19:00</time>
+            <guests>4</guests>
+            <status>confirmed</status>
+        </reservation>
+    </reservations>
+</restaurant>
